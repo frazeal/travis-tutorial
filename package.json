@@ -1,0 +1,28 @@
+{
+  "name": "travis-tutorial",
+  "version": "1.0.0",
+  "description": "\"Simple Travis-CI check for JSHint (Code Linting)\",",
+  "main": "hello.js",
+  "scripts": {
+    "test": "\"jshint hello.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frazeal/travis-tutorial.git"
+  },
+  "keywords": [
+    "travis",
+    "node",
+    "js",
+    "jshint"
+  ],
+  "author": "frazeal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frazeal/travis-tutorial/issues"
+  },
+  "homepage": "https://github.com/frazeal/travis-tutorial#readme",
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  }
+}
