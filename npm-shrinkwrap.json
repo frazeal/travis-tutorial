@@ -250,15 +250,13 @@
         "strip-json-comments": "^2.0.1",
         "table": "^5.2.3",
         "text-table": "^0.2.0"
-      },
-      "dependencies": {
-        "strip-json-comments": {
-          "version": "2.0.1",
-          "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz",
-          "integrity": "sha1-PFMZQukIwml8DsNEhYwobHygpgo=",
-          "dev": true
-        }
       }
+    },
+    "eslint-config-google": {
+      "version": "0.13.0",
+      "resolved": "https://registry.npmjs.org/eslint-config-google/-/eslint-config-google-0.13.0.tgz",
+      "integrity": "sha512-ELgMdOIpn0CFdsQS+FuxO+Ttu4p+aLaXHv9wA9yVnzqlUGV7oN/eRRnJekk7TCur6Cu2FXX0fqfIXRBaM14lpQ==",
+      "dev": true
     },
     "eslint-scope": {
       "version": "4.0.3",
@@ -868,6 +866,12 @@
       "requires": {
         "ansi-regex": "^3.0.0"
       }
+    },
+    "strip-json-comments": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz",
+      "integrity": "sha1-PFMZQukIwml8DsNEhYwobHygpgo=",
+      "dev": true
     },
     "supports-color": {
       "version": "5.5.0",
