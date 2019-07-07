@@ -4,7 +4,8 @@
   "description": "\"Simple Travis-CI check for JSHint (Code Linting)\",",
   "main": "hello.js",
   "scripts": {
-    "test": "jshint ./src"
+    "postinstall": "eslint --init",
+    "test": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/frazeal/travis-tutorial#readme",
   "devDependencies": {
-    "jshint": "^2.10.2"
-  }
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0"
+  },
+  "dependencies": {}
 }
